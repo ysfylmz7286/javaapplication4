@@ -9,13 +9,7 @@ package javaapplication4;
  *
  * @author Miroğlu
  */
-public class JavaApplication4 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-  
+interface IArayuz {
+    void Yaz();
+    int Topla(int a,int b);
 }
